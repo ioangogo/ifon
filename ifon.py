@@ -42,7 +42,7 @@ lanip=get_lan_ip()
 notorm=re.search(r"([1-9])\d+$", lanip)
 notorm=notorm.group(0)
 lanip=lanip.replace(str(notorm),"")
-knowmac={"e8:99:c4:77:cb:41":"Huw", "18:87:96:e3:f9:75":"Ioan", "7c:6d:62:68:8f:ee":"Ioan 2","f8:e0:79:a7:99:1f":"Alex"}
+knowmac={"":""}
 def rescan():
  devnull = open(os.devnull, 'wb')
  
